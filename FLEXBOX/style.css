@@ -10,6 +10,11 @@ h1{
     flex-direction: row-reverse;
 
 }
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
 .content{
     border: 1px solid blue;
     margin: 5px 20px;
