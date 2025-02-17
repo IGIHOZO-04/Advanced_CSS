@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+}
+.content{
+    border: 2px solid rgb(15, 0, 128);
+    margin: 5px 20px;
+    padding: 0px 5px;
+}
+.postion-static{
+    border: 1.5px solid greenyellow;
+    background-color: aqua;
+    position: static;
+}
+#section
+
+.postion-relative{
+    border: 1.5px solid greenyellow;
+    background-color: aqua;
+    position: relative;
+    top: 30px;
+    left: 45px;
+
+}
