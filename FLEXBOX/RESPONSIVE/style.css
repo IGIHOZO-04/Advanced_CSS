@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    
+}
+.content{
+    border: 1px solid blue;
+    margin:3px 20px;
+    padding:10px;
+}
+
+@media screen and (max-width:600px){
+    .h1{
+        text-align: center;
+    }
+    .container{
+        /*display: block;*/
+        display: flex;
+        flex-direction:column;
+
+    }
+    .container{
+        margin: 10px 5px;
+        /*width: 90vw;*/
+        width: 90%;
+
+    }
+    .content-2{
+        display: none;
+    }
+/*body{
+
+    background-color: rgb(153, 0, 255);
+}*/
+}
+@media (min-width:600px) and  (max-width:726px){
+    body{
+        background-color:red ; 
+    }
+    .h1{
+        text-align: center;
+    }
+}
+
+
